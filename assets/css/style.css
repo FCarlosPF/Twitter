@@ -1,0 +1,79 @@
+.tempora-twitter{
+    height: 900px;
+}
+
+.btn-twitter{
+    background-color: rgb(29, 155, 240);
+    padding: 10px 60px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: rgba(172,167,167,0.177);
+}
+
+ul li a{
+    border-radius: 30px;
+}
+
+.search-twitter{
+    border: none;
+    border-radius: 30px;
+    padding: 15px 50px;
+    background-color: rgba(172,167,167,0.177);
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .bi {
+  position: absolute;
+  padding:  10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .bi  { left:  0px;}
+.right-addon .bi { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+span{
+    font-size: 14px;
+    color: gray;
+}
+
+.btn-twitter-small{
+    cursor: none;
+    float: right;
+    background-color: rgb(106, 171, 215);
+    padding: 5px 30px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+hr{
+    opacity: 25%;
+}
+
+.more-tweets:hover{
+    background-color: rgba(172,167,167,0.177);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
